@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{99070b2a-ed21-4362-a110-0128affe7669}</ProjectGuid>
-    <RootNamespace>My10practice</RootNamespace>
+    <ProjectGuid>{325d2a5f-4cd5-481c-905a-07d9ca9373bb}</ProjectGuid>
+    <RootNamespace>My13bubbleSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>13_bubbleSort</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
