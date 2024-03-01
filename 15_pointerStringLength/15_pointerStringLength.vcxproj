@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{386abb25-75f2-4044-a56d-07c9e5526133}</ProjectGuid>
-    <RootNamespace>separateCompile</RootNamespace>
+    <ProjectGuid>{1045d5f1-33b4-44b2-b641-fcd01321eafe}</ProjectGuid>
+    <RootNamespace>My15pointerStringLength</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>14_separateCompile</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Add.c" />
-    <ClCompile Include="Func.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Func.h" />
+    <ClCompile Include="pointerStringLength.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
