@@ -2,10 +2,12 @@
 //3.1
 int main() {
 
-	char astrList[2][12] = { "Hello", "World" };
-	char(*pstrList)[12] = astrList;
+	char astrlist[2][12] = { "hello", "world" };
+	char(*pstrlist)[12] = astrlist;
 
-	puts(pstrList[0]);
-	puts(pstrList[1]);
+	puts(pstrlist[0]);
+	puts(pstrlist[1]);
 	return 0;
 }
+
+
